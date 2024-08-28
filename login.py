@@ -18,4 +18,3 @@ driver.find_element(By.ID, 'input-12').send_keys('DLtest02')
 time.sleep(2)
 # ログインボタンをクリック
 driver.find_element(By.XPATH, '//*[@id="inspire"]/div/main/div/div/div/div/div[2]/div[6]/div[2]/button').click()
-time.sleep(2)
